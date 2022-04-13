@@ -1,0 +1,61 @@
+.navbar{
+    background-color:#F509BF;
+    text-transform: uppercase;
+    font-weight: bold;   
+}
+.nav-link{
+    color: aliceblue;
+}
+.navbar-brand {
+    color: aliceblue;
+}
+
+.navbar-toggler{
+    border:2px solid aliceblue;    
+}
+
+.navbar-toggler-icon {
+    border:2px solid aliceblue;    
+}
+
+
+/*.bg-cover{
+    background-image: url("images/cat-jumping.jpg");
+    height: 400px;
+    background-size:cover;
+}
+*/
+
+/*.header{
+    background-image: url("images/tympaantynytkissa1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+    }*/
+/*img{
+    position: absolute;
+    left: 0px;
+  top: 0px;
+  z-index: -1;
+}*/
+/*#piip> img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    
+}*/
+#piip{
+    color: aliceblue;
+}
+#piip{
+    background-image: url("images/cat-green1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 50px;
+    height: 400px;
+    
+    
+}
+
+

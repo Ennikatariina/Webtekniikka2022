@@ -1,22 +1,15 @@
 /*Navbar layout*/
 .navbar{
-    background-color:#F509BF;
-    text-transform: uppercase;
-    font-weight: bold;   
-}
-.nav-link{
-    color: aliceblue;
-}
-.navbar-brand {
-    color: aliceblue;
+    background-color:#F509BF;  
 }
 
-.navbar-toggler{
-    border:2px solid aliceblue;    
+.navbar [class*="a"]{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold; 
 }
-/*Onko turha? Tämä ja toggler? Nämä on hampurilaiseen, muistaakseni*/
-.navbar-toggler-icon {
-    border:2px solid aliceblue;    
+.navbar-toggler{ 
+    background-color:blueviolet;   
 }
 
 /* Header layout*/
@@ -25,17 +18,15 @@
     bottom: 50%;
 }
 
+#hearder ~h1{
+    font-weight: bold; 
+}
+
 /* textsection layout*/
 #textsection p{
     margin-top: 1rem;
-    font-size: large;
+    font-size:large;
 
-}
-/* Carousel layout*/
-.carousel-inner button{
-    font-size: xx-large;
-    color: aliceblue;
-    text-decoration: none;
 }
 
 

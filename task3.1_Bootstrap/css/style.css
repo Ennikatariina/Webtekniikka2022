@@ -1,12 +1,17 @@
+/*This css-file modifies the home page */
 /*Navbar layout*/
 .navbar{
     background-color:#F509BF;  
 }
 
 .navbar [class*="a"]{
-    color: aliceblue;
+    color: aliceblue!important;
     text-transform: uppercase;
     font-weight: bold; 
+}
+
+.navbar-nav a:hover{
+    font-size: 120%;
 }
 .navbar-toggler{ 
     background-color:blueviolet;   
@@ -18,8 +23,8 @@
     bottom: 50%;
 }
 
-#hearder ~h1{
-    font-weight: bold; 
+#header h1:first-of-type{
+    text-transform: uppercase;
 }
 
 /* textsection layout*/

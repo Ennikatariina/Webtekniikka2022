@@ -1,0 +1,34 @@
+/*This file modified navbar on the kissahoito.html, kissarodut.html and tietoja.html*/
+/*Navbar layout*/
+.navbar {
+  background-color: #F509BF;
+}
+.navbar [class*=a] {
+  color: aliceblue !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar a:hover {
+  font-size: 120%;
+}
+
+.navbar-toggler {
+  background-color: blueviolet;
+}
+
+/* Header layout*/
+#header .carousel-caption {
+  text-align: left;
+  bottom: 50%;
+}
+#header h1:first-of-type {
+  text-transform: uppercase;
+}
+
+/* Kissarodut page's layout*/
+#text {
+  margin-top: 1rem;
+  font-size: large;
+}
+
+/*# sourceMappingURL=built-styles.css.map */

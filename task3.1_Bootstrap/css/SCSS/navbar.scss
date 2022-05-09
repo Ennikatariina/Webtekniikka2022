@@ -1,0 +1,16 @@
+/*This file modified navbar on the kissahoito.html, kissarodut.html and tietoja.html*/
+/*Navbar layout*/
+.navbar{
+    background-color:#F509BF;  
+    [class*="a"]{
+        color: aliceblue!important;
+        text-transform: uppercase;
+        font-weight: bold; 
+    }
+    a:hover{
+        font-size: 120%;
+    }
+}
+.navbar-toggler{ 
+    background-color:blueviolet;   
+}

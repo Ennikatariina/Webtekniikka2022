@@ -1,0 +1,19 @@
+@import "navbar";
+
+
+/* Header layout*/
+#header {
+    .carousel-caption{
+        text-align: left;
+        bottom: 50%;
+    }
+    h1:first-of-type{
+        text-transform: uppercase;
+    }
+}
+
+/* Kissarodut page's layout*/
+#text{
+    margin-top: 1rem;
+    font-size:large;
+}

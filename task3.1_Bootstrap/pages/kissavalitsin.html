@@ -11,6 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--Custom css-->
     <link rel="stylesheet" href="../css/SCSS/built-styles.css">
+    <script src="../js/script.js" defer></script>
+    
 </head>
 
 <body>
@@ -29,7 +31,6 @@
               <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="../index.html">Etusivu</a>
                 <a class="nav-link" href="../pages/kissarodut.html">Kissarodut</a>
-                <a class="nav-link" href="../pages/kissanhoito.html">kissanhoito</a>
                 <a class="nav-link" href="kissavalitsin.html">Kissavalitsin</a>
                 <a class="nav-link" href="../pages/tietoja.html">Tietoja</a>
               </div>
@@ -48,7 +49,7 @@
         <div class="carousel-item active">
           <img src="../images/kitten-pentukavelee1.jpg" class="d-block w-100" alt="kissa">
           <div class="carousel-caption d-none d-md-block">
-            <h1>Tervetuloa</h1>
+            <h1>Kissavalitsin</h1>
           </div>
         </div>
       </div>
@@ -56,9 +57,53 @@
   </div>
   
 
+  <!--Kysely-->
+  <div class="container" >
+    <!--Alkuteksti-->
+    <div class="col-12">
+      <p id="text2">Vastaa kyselyyn ja saat tietää sopiiko sinulle ragdoll, pyhä birma, burma vai abessinialainen </p>
+    </div>
+    <!--Lomake form-->
+    <form>
+      <!--Kysymys 1-->
+      <div id="q1">
+        <p>Haluatko lyhytkarvaisen vai pikäkarvaisen kissan?</p>
+        <div class="form-check">
+          <input id="q11Input" class="form-check-input" type="radio" name="karva" id="flexRadioDefault1" value="lyhyt">
+          <label class="form-check-label" for="flexRadioDefault1">
+            Lyhyt karvaisen
+          </label>
+        </div>
+        <div class="form-check">
+          <input id="q12Input" class="form-check-input" type="radio" name="karva" id="flexRadioDefault2" value="pitka">
+          <label class="form-check-label" for="flexRadioDefault2">
+            Pitkäkarvaisen
+          </label>
+        </div>
+      </div>
+      <!--Kysymys 2-->
+      <div id="q2">
+        <p>Haluatko ison vai pienen kissan</p>
+        <div class="form-check">
+          <input id="q21Input" class="form-check-input" type="radio" name="koko" id="flexRadioDefault3" value="iso">
+          <label class="form-check-label" for="flexRadioDefault3">
+            Ison
+          </label>
+        </div>
+        <div class="form-check">
+          <input id="q22Input" class="form-check-input" type="radio" name="koko" id="flexRadioDefault4" value="pieni">
+          <label class="form-check-label" for="flexRadioDefault4">
+            Pienen
+          </label>
+        </div>
+      </div>
+      <!--Kysymys 3-->
+      <button id="button" type="submit" class="btn btn-success">Näytä tulos</button>
+    </form>
  
-  <p>tarvikkeet</p>
- 
+      <div id="randomcat" class="container"> <h6>Päivitä sivu, niin saat uuden kissakuvan</h6>
+      </div>
+    
 
       <!--Footer-->
       <div class="container">
@@ -71,10 +116,10 @@
       
           <ul class="nav col-md-4 justify-content-end">
             <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
           </ul>
         </footer>
       </div>
+
 
     <!--Add Bootstrap Js file-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

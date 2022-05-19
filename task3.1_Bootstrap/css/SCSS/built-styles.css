@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/*Navbarin tyyliasettelut on toisessa cscc tiedostossa (navbar.scss). Testasin tässä partialsin käyttöä*/
 /*This file modified navbar on the kissahoito.html, kissarodut.html and tietoja.html*/
 /*Navbar layout*/
 .navbar {
@@ -16,7 +18,9 @@
   background-color: blueviolet;
 }
 
-/* Header layout*/
+/* Tietoja sivun kuvien asettaminen taustakuvaksi ja muut säädät tautakuvan näkyvuudelle*/
+/* Kysymyslaatikoiden taustaväri, kun ei olla vastattu kysymyksiin*/
+/* Header ulkoasu*/
 #header .carousel-caption {
   text-align: left;
   bottom: 50%;
@@ -25,10 +29,270 @@
   text-transform: uppercase;
 }
 
-/* Kissarodut page's layout*/
+/* Kissarodut sivun teksin ulkoasu*/
 #text {
   margin-top: 1rem;
   font-size: large;
+}
+
+/* Kissavalitsin sivun kysymys laatikoiden tyyli*/
+#q1 {
+  background-color: #F509BF;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#q2 {
+  background-color: #F509BF;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#q3 {
+  background-color: #F509BF;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#q11 {
+  background-color: #F509BF;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#q12 {
+  background-color: #F509BF;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#q13 {
+  background-color: #F509BF;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.boxstyle_answered {
+  background-color: deeppink !important;
+}
+
+/*Tietojasivun kuvat taustakuviksi*/
+#backgroundimage1 {
+  background-image: url("../../images/mainecoon.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#backgroundimage1 a {
+  color: #F509BF;
+  font-size: large;
+  font-weight: bold;
+}
+
+#backgroundimage2 {
+  background-image: url("../../images/cat-green.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#backgroundimage2 a {
+  color: #F509BF;
+  font-size: large;
+  font-weight: bold;
+}
+
+#backgroundimage3 {
+  background-image: url("../../images/pyhabirma.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#backgroundimage3 a {
+  color: #F509BF;
+  font-size: large;
+  font-weight: bold;
+}
+
+#backgroundimage4 {
+  background-image: url("../../images/norjalainen.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#backgroundimage4 a {
+  color: #F509BF;
+  font-size: large;
+  font-weight: bold;
+}
+
+#backgroundimage5 {
+  background-image: url("../../images/kissanhoito.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#backgroundimage5 a {
+  color: #F509BF;
+  font-size: large;
+  font-weight: bold;
+}
+
+#backgroundimage6 {
+  background-image: url("../../images/kitten-pentukavelee.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#backgroundimage6 a {
+  color: #F509BF;
+  font-size: large;
+  font-weight: bold;
+}
+
+#backgroundimage7 {
+  background-image: url("../../images/cat-nurmikolla.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#backgroundimage7 a {
+  color: #F509BF;
+  font-size: large;
+  font-weight: bold;
+}
+
+#backgroundimage8 {
+  background-image: url("../../images/kitten-tuima.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#backgroundimage8 a {
+  color: #F509BF;
+  font-size: large;
+  font-weight: bold;
+}
+
+#backgroundimage9 {
+  background-image: url("../../images/cat-pentu-tumma.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#backgroundimage9 a {
+  color: #F509BF;
+  font-size: large;
+  font-weight: bold;
+}
+
+#backgroundimage10 {
+  background-image: url("../../images/ragdoll1.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#backgroundimage10 a {
+  color: #F509BF;
+  font-size: large;
+  font-weight: bold;
+}
+
+#backgroundimage11 {
+  background-image: url("../../images/sphynx.JPG");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#backgroundimage11 a {
+  color: #F509BF;
+  font-size: large;
+  font-weight: bold;
+}
+
+#backgroundimage12 {
+  background-image: url("../../images/burma.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#backgroundimage12 a {
+  color: #F509BF;
+  font-size: large;
+  font-weight: bold;
+}
+
+/*Kissavalitsin sivun teksin ulkoasu*/
+#text2 {
+  margin-top: 1rem;
+  font-size: large;
+}
+
+form img {
+  margin: 10px;
+  width: 50%;
+  height: auto;
+}
+@media only screen and (max-width: 600px) {
+  form img {
+    width: 100%;
+  }
+}
+
+/*kissavalistin sivun randomkissa kuvan koko*/
+#randomcat img {
+  margin: 10px;
+  width: 50%;
+  height: auto;
+}
+@media only screen and (max-width: 600px) {
+  #randomcat img {
+    width: 100%;
+  }
+}
+#randomcat h6 {
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=built-styles.css.map */

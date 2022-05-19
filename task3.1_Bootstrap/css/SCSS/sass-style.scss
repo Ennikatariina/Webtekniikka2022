@@ -1,7 +1,31 @@
+/*Navbarin tyyliasettelut on toisessa cscc tiedostossa (navbar.scss). Testasin tässä partialsin käyttöä*/
 @import "navbar";
 
+/* Tietoja sivun kuvien asettaminen taustakuvaksi ja muut säädät tautakuvan näkyvuudelle*/
+@mixin background($backgroundimage) {
+    background-image:$backgroundimage;
+    background-size:cover;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    a{
+        color: #F509BF;
+        font-size: large;
+        font-weight: bold;
+    }
+}
+/* Kysymyslaatikoiden taustaväri, kun ei olla vastattu kysymyksiin*/
+@mixin questionbox(){
+    background-color: #F509BF;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+}
 
-/* Header layout*/
+
+/* Header ulkoasu*/
 #header {
     .carousel-caption{
         text-align: left;
@@ -12,8 +36,101 @@
     }
 }
 
-/* Kissarodut page's layout*/
+/* Kissarodut sivun teksin ulkoasu*/
 #text{
     margin-top: 1rem;
     font-size:large;
+}
+
+/* Kissavalitsin sivun kysymys laatikoiden tyyli*/
+#q1{
+    @include questionbox();
+}
+#q2{
+    @include questionbox();
+}
+#q3{
+    @include questionbox();
+}
+#q11{
+    @include questionbox();
+}
+#q12{
+    @include questionbox();
+}
+#q13{
+    @include questionbox();
+}
+.boxstyle_answered{
+    background-color:deeppink!important;
+}
+
+/*Tietojasivun kuvat taustakuviksi*/
+#backgroundimage1{
+    @include background($backgroundimage: url("../../images/mainecoon.jpg"));
+}
+#backgroundimage2{
+    @include background($backgroundimage: url("../../images/cat-green.jpg"));
+}
+#backgroundimage3{
+    @include background($backgroundimage: url("../../images/pyhabirma.jpg"));
+}
+#backgroundimage4{
+    @include background($backgroundimage: url("../../images/norjalainen.jpg"));
+}
+#backgroundimage5{
+    @include background($backgroundimage: url("../../images/kissanhoito.jpg"));
+}
+#backgroundimage6{
+    @include background($backgroundimage: url("../../images/kitten-pentukavelee.jpg"));
+}
+#backgroundimage7{
+    @include background($backgroundimage: url("../../images/cat-nurmikolla.jpg"));
+}
+#backgroundimage8{
+    @include background($backgroundimage: url("../../images/kitten-tuima.jpg"));
+}
+#backgroundimage9{
+    @include background($backgroundimage: url("../../images/cat-pentu-tumma.jpg"));
+}
+#backgroundimage10{
+    @include background($backgroundimage: url("../../images/ragdoll1.jpg"));
+}
+#backgroundimage11{
+    @include background($backgroundimage: url("../../images/sphynx.JPG"));
+}
+#backgroundimage12{
+    @include background($backgroundimage: url("../../images/burma.jpg"));
+}
+
+
+/*Kissavalitsin sivun teksin ulkoasu*/
+#text2{
+    margin-top: 1rem;
+    font-size:large;
+}
+form{ 
+    img{
+        margin: 10px;
+        width: 50%;
+        height: auto;
+        @media only screen and (max-width: 600px){
+            width: 100%;
+        }
+}}
+
+/*kissavalistin sivun randomkissa kuvan koko*/
+#randomcat{
+    img{
+        margin: 10px;
+        width: 50%;
+        height: auto;
+        @media only screen and (max-width: 600px){
+            width: 100%;
+        }
+    }
+    h6{
+        margin-top: 20px;
+    }
+    
 }

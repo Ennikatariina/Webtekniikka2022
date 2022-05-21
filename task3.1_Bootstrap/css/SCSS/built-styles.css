@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*Navbarin tyyliasettelut on toisessa cscc tiedostossa (navbar.scss). Testasin tässä partialsin käyttöä*/
-/*This file modified navbar on the kissahoito.html, kissarodut.html and tietoja.html*/
-/*Navbar layout*/
+/*Tämä tiedosto muokkaa navbarin sivuille: kissahoito.html, kissarodut.html, tietoja.html ja kissavalitsin.html*/
+/*Navbar ulkoasua*/
 .navbar {
   background-color: #F509BF;
 }

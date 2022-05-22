@@ -6,4 +6,4 @@ Kissavalitsin sivulla voit tehdä pienen testin ja tulokseksi saat mikä kissarr
 
 Sivusto sisältää html ja sass tiedostoja. Kissavalitsin sivulla on js-tiedosto. 
 
-ALoita sivustoon tutustuminen vierailemalla sivustolla: xx
+ALoita sivustoon tutustuminen vierailemalla sivustolla: https://www.students.oamk.fi/~n1keen00/ 
